@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="box">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        <label class="theme-label">Theme:</label>
+        <div class="theme-buttons">
+            <button type="button" id="theme1">Space</button>
+            <button type="button" id="theme2">animals</button>
+            <button type="button" id="theme3">toys</button>
+        </div>
+        <button type="button" id="submit-button">submit</button>
+    </form>
+</div>
+<div class="bar">
+    <p class="score">Score:</p>
+    <div class="score-no">0</div>
+    <span class="messages">
+    <p class="message">Hi!</p>
+    <div class="person-name"></div>
+</span>
+<span class="states">
+    <div class="state">state:</div>
+    <div class="status"></div>
+</span>
+</div>
+<div class="allcontent">
+    <div class="left">
+<span class="theme-images">
+    <div class="image1"></div>
+    <div class="image2"></div>
+</span>
+        <label>First number:</label>
+        <input type="number" class="first-no">
+        <label>Operator:</label>
+        <input type="text" class="operator">
+        <label>Second number:</label>
+        <input type="number" class="second-no">
+        <label>Result</label>
+        <input type="result" class="result">
+        <button class="true">True</button>
+        <button class="false">False</button>
+        <button type="button" class="submit-button">submit</button>
+    </div>
+    <div class="right">
+        <div class="all">
+            <div class="nums1">
+                <button class="more">></button>
+                <button class="equall">=</button>
+                <button class="less"> &#60 </button>
+                </div>
+           
+                <div class="nums2">
+                    <button class="one">1</button>
+                    <button class="two">2</button>
+                    <button class="three">3</button>
+                    <button class="four">4</button>
+                </div>
+                <div class="nums3">
+                    <button class="five">5</button>
+                    <button class="six">6</button>
+                    <button class="seven">7</button>
+                    <button class="eight">8</button>
+                </div>
+                <div class="nums4">
+                    <button class="nine">9</button>
+                    <button class="zero">0</button>
+                    <button class="minus">-</button>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

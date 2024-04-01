@@ -1,0 +1,22 @@
+.theme2-image1{
+    background-image: url(../images/fox.png);
+border: 2px solid black;
+border-radius: 50px;
+width: 100px;
+height:100px;
+background-size: cover;
+background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.theme2-image2{
+    background-image: url(../images/lion.png);
+border: 2px solid black;
+border-radius: 50px;
+width: 100px;
+height:100px;
+background-size: cover;
+background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+}

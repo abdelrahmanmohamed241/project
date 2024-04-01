@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin-top: -16px;
+    margin:0;
+    padding:0;
+}
+.header-icons{
+    background-color: black;
+    color:#fff;
+    margin-top: -16px;
+    margin:0;
+    padding:0;
+ height:50px;
+    display: flex;
+    width:100%;
+    position:fixed;
+    justify-content: space-between;
+}
+.header-icons li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-icons ul.one{
+    list-style: none;
+    display:flex;
+    padding-left: 0;
+    margin-top: 0px;
+}
+.header-icons button{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.last i{
+    color:#fff;
+}
+.text i{
+    color:#ccc;
+}
+.header-icons .last:hover ul.two{
+    display:block;
+}
+.header-icons button:hover{
+    background-color: #ccc!important;
+}
+button:hover li a{
+    color:black;
+}
+.header-icons button:hover li i{
+    color:black;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 25px;
+    gap: 20px;
+    padding-top: 80px;
+}
+.card{
+    border:10px solid #eee ;
+    border-radius: 10%;
+}
+.more{
+    margin-top: 20px;
+    padding: 10px;
+}
+.title{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.images-main{
+    background-image: url(../images/202105090235183518.jpg);
+    height:100px;
+    background-size: cover;
+    border:5px solid #eee ;
+    border-radius: 10%;
+    padding: 10px;
+}
+.summary{
+    padding:10px;
+}
+@media screen and (min-width: 900px){
+    .cards{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .cards{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width: 600px){
+    .cards{
+        grid-template-columns: repeat(1,auto);
+    }
+}
+footer{
+    color: #000!important;
+    background-color: #eee!important;
+    position: absolute;
+      bottom: 0;
+      width: 100%;
+}
+footer img{
+    color:rgb(100, 100, 100);
+    font-size: 24px; 
+    height: 40px;
+}
+footer img:hover{
+    color:#ccc;
+}
+.is{
+    padding-left: 16px;
+    padding-right:16px;
+    height: 40px;
+    text-align: center;
+}

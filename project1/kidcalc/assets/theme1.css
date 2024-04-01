@@ -1,0 +1,22 @@
+.theme1-image1{
+    background-image: url(../images/planet.png);
+border: 2px solid black;
+border-radius: 50px;
+width: 100px;
+height:100px;
+background-size: cover;
+background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.theme1-image2{
+    background-image: url(../images/planet-earth.png);
+border: 2px solid black;
+border-radius: 50px;
+width: 100px;
+height:100px;
+background-size: cover;
+background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+}
